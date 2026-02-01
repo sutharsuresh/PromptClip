@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PromptClip Pro - User Guide</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    .container {
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #6366f1;
+      margin-top: 0;
+      font-size: 32px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2 {
+      color: #6366f1;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    h3 {
+      color: #4f46e5;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    ul, ol {
+      margin: 10px 0;
+      padding-left: 24px;
+    }
+    li {
+      margin: 8px 0;
+    }
+    strong {
+      color: #374151;
+    }
+    code {
+      background: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 13px;
+      color: #6366f1;
+    }
+    .tip {
+      background: #eff6ff;
+      border-left: 4px solid #6366f1;
+      padding: 15px;
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+    .section {
+      margin: 30px 0;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .feature-card {
+      background: #f9fafb;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+    }
+    .feature-card h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📚 PromptClip Pro - User Guide</h1>
+    <p style="font-size: 18px; color: #6b7280;">Your AI-powered context clipboard for building better prompts.</p>
+
+    <div class="section">
+      <h2>🎯 Quick Start</h2>
+      <p><strong>PromptClip Pro</strong> helps you collect and organize text and visual context from web pages to build comprehensive prompts for AI conversations.</p>
+    </div>
+
+    <div class="section">
+      <h2>📝 Capturing Content</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Text Clips</h3>
+          <ol>
+            <li>Select text on any webpage</li>
+            <li>Click the PromptClip Pro extension icon</li>
+            <li>Text is automatically saved to your current folder</li>
+          </ol>
+        </div>
+        <div class="feature-card">
+          <h3>📸 Snapshots</h3>
+          <ol>
+            <li>Open the extension popup</li>
+            <li>Click the <strong>📸 Snapshot</strong> button</li>
+            <li>Drag to select a screen area</li>
+            <li>Release to capture (or press ESC to cancel)</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>📁 Organization</h2>
+      <ul>
+        <li><strong>Folders:</strong> Use the folder dropdown to switch between folders. Create custom folders with icons (📁, 🗂️, etc.)</li>
+        <li><strong>Tags:</strong> Click "+ Add Tag" on any clip to add custom tags for better categorization</li>
+        <li><strong>Search:</strong> Use the search box to filter clips by content, tags, titles, or URLs</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>✨ Templates</h2>
+      <p>Format your clips for different use cases:</p>
+      <ul>
+        <li><strong>Plain:</strong> Simple text concatenation, no formatting</li>
+        <li><strong>Markdown:</strong> Formatted with headers, links, and structure</li>
+        <li><strong>Dev Notes:</strong> Code-friendly format for technical documentation</li>
+        <li><strong>Research:</strong> Academic-style citations and references</li>
+        <li><strong>Custom Templates:</strong> Create your own using variables:
+          <ul>
+            <li><code>{text}</code> - The clipped text content</li>
+            <li><code>{url}</code> - Source URL</li>
+            <li><code>{title}</code> - Page title</li>
+            <li><code>{tags}</code> - Tags as comma-separated list</li>
+            <li><code>{timestamp}</code> - When the clip was created</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🚀 Building Prompts</h2>
+      <ol>
+        <li><strong>Select clips:</strong> Check the boxes next to clips you want to include</li>
+        <li><strong>Choose template:</strong> Select a formatting template from the dropdown</li>
+        <li><strong>Build & Copy:</strong> Click "✨ Build & Copy" to format and copy to clipboard</li>
+        <li><strong>Paste:</strong> Paste into your AI chat (ChatGPT, Claude, etc.)</li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>📸 Snapshot Features</h2>
+      <ul>
+        <li>Snapshots are saved as images in your current folder</li>
+        <li>View image dimensions below each snapshot</li>
+        <li><strong>📋 Copy:</strong> Copy image to clipboard for pasting directly into AI chats</li>
+        <li><strong>💾 Save:</strong> Download the image to your computer</li>
+        <li>Click on snapshot images to view full size</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>💡 Pro Tips</h2>
+      <ul>
+        <li>Hover over any element to see helpful tooltips</li>
+        <li>Token count estimates help you stay within AI model limits</li>
+        <li>Click on text snippets to expand/collapse content</li>
+        <li>Click on tags to instantly filter by that tag</li>
+        <li>Use "🚀 Copy All in Folder" to export all clips in current folder</li>
+        <li>Organize clips into folders before building prompts for better context</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>💾 Data Storage</h2>
+      <p>All your data is stored <strong>locally</strong> in Chrome's extension storage:</p>
+      <ul>
+        <li><strong>Privacy:</strong> Nothing is sent to external servers</li>
+        <li><strong>Backup:</strong> Use "Copy All in Folder" to export your clips as text</li>
+        <li><strong>Clear Data:</strong> Use "Clear All" button (⚠️ this cannot be undone!)</li>
+        <li><strong>Storage Limit:</strong> Chrome extension storage is typically 5-10MB</li>
+      </ul>
+    </div>
+
+    <div class="tip">
+      <strong>💡 Best Practice:</strong> For multimodal AI models (like GPT-4V, Claude 3), combine text clips with snapshots to provide both textual and visual context for more accurate and comprehensive responses.
+    </div>
+
+    <div class="section">
+      <h2>⌨️ Keyboard Shortcuts</h2>
+      <ul>
+        <li><strong>ESC:</strong> Cancel snapshot selection</li>
+        <li><strong>Search:</strong> Type directly in search box to filter clips</li>
+      </ul>
+    </div>
+
+    <div style="margin-top: 40px; padding-top: 20px; border-top: 2px solid #e5e7eb; text-align: center; color: #6b7280;">
+      <p><strong>PromptClip Pro</strong> - Built for AI-powered workflows</p>
+      <p style="font-size: 14px;">Enhance your AI conversations with rich context 🚀</p>
+    </div>
+  </div>
+</body>
+</html>
